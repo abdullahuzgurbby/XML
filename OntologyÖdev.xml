@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:b2be4477-6b9a-4547-be60-1e0c1d2b4bb9#"
+     xml:base="urn:webprotege:ontology:b2be4477-6b9a-4547-be60-1e0c1d2b4bb9"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:b2be4477-6b9a-4547-be60-1e0c1d2b4bb9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <rdfs:label xml:lang="en-gb">dc:description</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format">
+        <rdfs:label xml:lang="en-gb">dc:format</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language">
+        <rdfs:label xml:lang="en-gb">dc:language</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/price -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/price">
+        <rdfs:label xml:lang="en-gb">dc:price</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publsiher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publsiher">
+        <rdfs:label xml:lang="en-gb">dc:publisher</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:label xml:lang="en-gb">dc:title</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2Ttrztp3Mt44WYeG3gWtZ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R2Ttrztp3Mt44WYeG3gWtZ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en-gb">author</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81S1OcYvsgQNTJtfQeFPxW -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R81S1OcYvsgQNTJtfQeFPxW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en-gb">description</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xNdFFyB13EeDr4ZKIQ327 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8xNdFFyB13EeDr4ZKIQ327">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R2Ttrztp3Mt44WYeG3gWtZ"/>
+        <rdfs:label xml:lang="en-gb">firstname</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCrPjKZTC8bLQkIEcLxydsB -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCrPjKZTC8bLQkIEcLxydsB">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R2Ttrztp3Mt44WYeG3gWtZ"/>
+        <rdfs:label xml:lang="en-gb">lastname</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDs0XgDOZbbGQ8YUf2gfQqM -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDs0XgDOZbbGQ8YUf2gfQqM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en-gb">title</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDuEo6VtO7LxJ4fNpKhGGQf -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDuEo6VtO7LxJ4fNpKhGGQf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en-gb">publisher</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Raqjc3KHSeLKPGmoIjJpRT -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Raqjc3KHSeLKPGmoIjJpRT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en-gb">identifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvHAAP7QR4SZ0zzaDQfICq -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RvHAAP7QR4SZ0zzaDQfICq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en-gb">language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pl1gofEpgrQfEU9Y3X2fi -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7pl1gofEpgrQfEU9Y3X2fi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en-gb">Price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKbp3UPxlhhtHd2LEyTJKk -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCKbp3UPxlhhtHd2LEyTJKk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en-gb">Identifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RClxA5zavUa8xnhd6GkKBMo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RClxA5zavUa8xnhd6GkKBMo">
+        <rdfs:label xml:lang="en-gb">Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDaWKOcY0sTXpBasgkQXzxr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDaWKOcY0sTXpBasgkQXzxr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClxA5zavUa8xnhd6GkKBMo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J. R. R. Tolkien</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16,5 x 27</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9780008185176</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70.90</dc:price>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harper Collins UK</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Lord of the Rings Movie Trilogy Colouring Book</dc:title>
+        <rdfs:label xml:lang="en-gb">Science fiction</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/The-Lord-of-the-Rings-Movie-Trilogy-Colouring-Book/JRR-Tolkien/Foreign-Languages/Hobby/Handcraft/urunno=0000000724681"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RM9MBZD7spCnsNqaTlKPg0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RM9MBZD7spCnsNqaTlKPg0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClxA5zavUa8xnhd6GkKBMo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Churcward</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13,5 x 21</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786059491600</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.90</dc:price>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puslu Yayıncılık</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kayıp Kıta Mu</dc:title>
+        <rdfs:label xml:lang="en-gb">History</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Kayip-Kita-Mu/Arastirma-Tarih/Tarih/Dunya-Tarihi/urunno=0001791253001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjTvpM299wv2lUCNvoqRIK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjTvpM299wv2lUCNvoqRIK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClxA5zavUa8xnhd6GkKBMo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephen Hawking</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13,5 x 21</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786051715513</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.00</dc:price>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfa Yayıncılık</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kara Delikler</dc:title>
+        <rdfs:label xml:lang="en-gb">Scinece</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Kara-Delikler/Bilim/Astronomi/urunno=0001718325001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rl45WCDW9QUppYWZFjbjed -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rl45WCDW9QUppYWZFjbjed">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClxA5zavUa8xnhd6GkKBMo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cem Ateş</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.5 x 19.5 cm</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786056958083</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.38</dc:price>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POESİS</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İyi Zamanlar Takvimi</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poetry</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapyurdu.com/kitap/iyi-zamanlar-takvimi/550384.html&amp;path=1_128_133"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
